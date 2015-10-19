@@ -1,4 +1,8 @@
 /* You'll probably want to add some styles here */
-#container {
+.container {
 	height:800px;
+}
+
+#map {
+	height: 180px;
 }
