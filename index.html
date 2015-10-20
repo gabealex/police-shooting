@@ -19,15 +19,39 @@
   </head>
 
   <body>
-    <h1>Police shootings</h1>
+    <h1>Police shooting</h1>
+    <p>**This cross-tabulation shows the breakdown of victims by race and color.</p>
+    
 
-     <!-- leaflet libraries -->
+    <div class="container" id="table">
+      <table class="table">
+        <tr>
+          <th></th>
+          <th>Men</th>
+          <th>Women</th>
+        </tr>
+         <tr>
+          <th>White</th>
+          <td id= "whiteMan"></td>
+          <td id= "nonWhiteMan"></td>
+        </tr>
+         <tr>
+          <th>Non-White</th>
+          <td id= "whiteWoman"></td>
+          <td id= "nonWhiteWoman"></td>
+        </tr>
+      </table>
+    </div>
+    <div class = "container" id = "legend">
+      <p><i>This map displays crowd-sourced information about crime that happened around the nation. In particular, crime that involved armed assailants are marked by red circles, while victims of unarmed assailants are highlighted in blue.</i></p>
+      <p id="legend">**Use the layer control on the top right of the map to toggle for crimes filtered by Race and Lethality.</p>
+    </div>
+    <!-- leaflet libraries -->
     <script src="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.js"></script>
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.css" />
 
     <div class="container" id="map">
+      <script type="text/javascript">drawMap([47, -122], 7)</script>
     </div>
-
-
   </body>
 </html>

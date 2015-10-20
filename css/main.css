@@ -1,8 +1,41 @@
 /* You'll probably want to add some styles here */
 .container {
-	height:800px;
+	height:600px;
+	clear: both;
 }
 
 #map {
-	height: 180px;
+	margin-bottom: 20px;
+	margin-top: 5px;
+	clear: both;
+}
+
+h1 {
+	font-family: Lato, "Helvetica", sans-serif;
+}
+
+body {
+	text-align: center;
+}
+
+#table {
+	height: 130px;
+}
+
+p {
+	font-size: 13px;
+}
+#legend {
+	font-size: 10px;
+	height: 80px;
+	clear: both;
+}
+
+table {
+	width: 100%;
+	text-align: center;
+}
+
+td, th {
+	text-align: center;
 }
